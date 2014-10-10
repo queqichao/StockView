@@ -10,7 +10,7 @@
       $start = $_GET["begin"];
       $end = $_GET["end"];
       $step = $_GET["step"];
-      $cmd = "python /usr/share/nginx/www/quotes/plots.py ".$tick." ".$start." ".$end." ".$step;
+      $cmd = "python /data/www/quotes/plots.py ".$tick." ".$start." ".$end." ".$step;
       exec($cmd); ?>
 <img src="<?php echo $tick ?>.png" alt="DISPLAY ERROR" />
 </body>

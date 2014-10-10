@@ -38,4 +38,4 @@ for i in range(len(syms)):
   ax.set_ylim(y_min, y_max)
   ax.set_xlim(0, len(p)*1.05)
   canvas = FigureCanvasAgg(fig)
-  canvas.print_figure('/usr/share/nginx/www/quotes/%s.png' % syms[i], dpi=200)
+  canvas.print_figure('/data/www/quotes/%s.png' % syms[i], dpi=200)

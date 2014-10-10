@@ -9,7 +9,7 @@ import numpy as np
 from collections import deque
 import os.path
 
-base_dir = '/usr/share/nginx/www/quotes/'
+base_dir = '/data/www/quotes/'
 def load_quotes(dt, end=datetime.now(), symbols = None):
   tmp_dt = dt
   if end is None or dt==end:
