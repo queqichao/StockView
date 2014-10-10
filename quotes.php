@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<?php $tick = $_GET["tick"];
+<?php $tick = strtoupper($_GET["tick"]);
       $start = $_GET["begin"];
       $end = $_GET["end"];
       $step = $_GET["step"];
